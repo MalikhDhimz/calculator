@@ -18,7 +18,7 @@
         <div style="margin: 20px; background-color: gainsboro; border-radius: 20px; width: fit-content;">
         <h2 style="color: rgb(135, 34, 251);">Prelim Grade Calculator</h2>
         <p style="color: rgb(121, 34, 251);">This calculator will calculate the prelim grade based on the number of absences, prelim exam grade, quizzes grade, requirements grade, and recitation grade.</p>
-    <form action="/calculate" method=["POST"](https://calculator-aohh.onrender.com)>
+    <form action="/calculate" method="https://calculator-aohh.onrender.com">
         <label style="color: rgb(121, 34, 251);" for="absences">Number of Absences:</label>
         <input type="number" id="absences" name="absences" min="0" required><br>
 
