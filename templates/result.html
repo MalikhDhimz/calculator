@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Calculation Result</title>
+</head>
+<body style="background-color: rgb(180, 102, 102);">
+    <center>
+    <div style="margin: 50px; background-color: gray; padding: 30px; border-radius: 20px; width: fit-content;">
+    <h1 style="color: aqua;">Grade Calculation Result</h1>
+    
+    {% if failed %}
+    <p style="color: aqua;">You have automatically failed due to 4 or more absences.</p>
+    {% else %}
+    <b><p style="color: aqua;">Prelim Grade: {{ prelim_grade }}</p></b>
+    <b><p style="color: aqua;">To pass (75%), you need a Midterm grade of {{ req_midterm_pass }} and a Final grade of {{ req_final_pass }}.</p></b>
+    <b><p style="color: aqua;">To achieve Dean's Lister (90%), you need a Midterm grade of {{ req_midterm_dl }} and a Final grade of {{ req_final_dl }}.</p></b>
+    {% endif %}
+
+    <a href="/">Go Back</a>
+</div>
+</center>
+</body>
+</html>
