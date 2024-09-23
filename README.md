@@ -29,6 +29,5 @@
 
         <button style="color: rgb(121, 34, 251);" type="submit">Calculate</button>
     </form>
-    </center>
     </div>
 
