@@ -1,17 +1,10 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prelim Grade Calculator</title>
-    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
-
-    
 </head>
 <body style="background-color: rgb(180, 102, 102);">
-    <script>
-        pyscript.load_module('prelim_grade_calculator.py');
-    </script>
     <h1 style="color: rgb(251, 34, 34);">Grade Calculator</h1>
     <hr>
     <center>
@@ -25,7 +18,7 @@
         <label style="color: rgb(121, 34, 251);" for="prelim_exam">Prelim Exam Grade:</label>
         <input type="number" id="prelim_exam" name="prelim_exam" step="0.01" min="0" max="100" required><br>
 
-        <label style="color: rgb(121, 34, 251);" for="quizzes ">Quizzes Grade:</label>
+        <label style="color: rgb(121, 34, 251);" for="quizzes">Quizzes Grade:</label>
         <input type="number" id="quizzes" name="quizzes" step="0.01" min="0" max="100" required><br>
 
         <label style="color: rgb(121, 34, 251);" for="requirements">Requirements Grade:</label>
@@ -36,7 +29,7 @@
 
         <button style="color: rgb(121, 34, 251);" type="submit">Calculate</button>
     </form>
-</center>
-</div>
+    </center>
+    </div>
 </body>
 </html>
